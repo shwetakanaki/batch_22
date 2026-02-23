@@ -9,4 +9,5 @@ def add():
     print("even")
   else:
     print("odd")
+add()
 c=a+b
