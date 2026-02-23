@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh '''
                    
-                    java test
+                    java co.java
                 '''
             }
         }
