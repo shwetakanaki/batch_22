@@ -18,7 +18,7 @@ pipeline {
         stage('Compile and Run Java') {
             steps {
                 sh '''
-                    javac test.java
+                   
                     java test
                 '''
             }
